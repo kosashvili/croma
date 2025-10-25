@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "your-organisation", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Lightberry Design Limited", // Usually your GitHub org/user name.
+  projectName: "Croma", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -61,74 +61,74 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Universal Docs",
-        items: [
-          {
-            "aria-label": "Discord Invite",
-            className: "navbar--discord-link",
-            href: "https://discord.gg/6qGnyrt7xy",
-            position: "right",
-          },
-          {
-            "aria-label": "GitHub Repository",
-            className: "navbar--github-link",
-            href: "https://github.com/dhub-dev/template-docusaurus-docs",
-            position: "right",
-          },
-        ],
+        title: "Croma",
+        // items: [
+        //   {
+        //     "aria-label": "Discord Invite",
+        //     className: "navbar--discord-link",
+        //     href: "https://discord.gg/6qGnyrt7xy",
+        //     position: "right",
+        //   },
+        //   {
+        //     "aria-label": "GitHub Repository",
+        //     className: "navbar--github-link",
+        //     href: "https://github.com/dhub-dev/template-docusaurus-docs",
+        //     position: "right",
+        //   },
+        // ],
       },
       footer: {
         style: "light",
-        links: [
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/dhub",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.com/invite/6qGnyrt7xy",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/withdhub",
-              },
-            ],
-          },
-          {
-            title: "Docusaurus",
-            items: [
-              {
-                label: "Home",
-                href: "https://docusaurus.io",
-              },
-              {
-                label: "Documentation",
-                href: "https://docusaurus.io/docs/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Dhub",
-            items: [
-              {
-                label: "Home",
-                href: "https://dhub.dev",
-              },
-              {
-                label: "Get in touch",
-                href: "mailto:hello@dhub.dev",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Built with Docusaurus, edited with Dhub`,
+        // links: [
+        //   {
+        //     title: "Community",
+        //     items: [
+        //       {
+        //         label: "Stack Overflow",
+        //         href: "https://stackoverflow.com/questions/tagged/dhub",
+        //       },
+        //       {
+        //         label: "Discord",
+        //         href: "https://discord.com/invite/6qGnyrt7xy",
+        //       },
+        //       {
+        //         label: "Twitter",
+        //         href: "https://twitter.com/withdhub",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "Docusaurus",
+        //     items: [
+        //       {
+        //         label: "Home",
+        //         href: "https://docusaurus.io",
+        //       },
+        //       {
+        //         label: "Documentation",
+        //         href: "https://docusaurus.io/docs/blog",
+        //       },
+        //       {
+        //         label: "GitHub",
+        //         href: "https://github.com/facebook/docusaurus",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "Dhub",
+        //     items: [
+        //       {
+        //         label: "Home",
+        //         href: "https://dhub.dev",
+        //       },
+        //       {
+        //         label: "Get in touch",
+        //         href: "mailto:hello@dhub.dev",
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `Copyright © ${new Date().getFullYear()} Croma Design Token. Lightberry Design Limited`,
       },
       prism: {
         theme: prismThemes.github,
