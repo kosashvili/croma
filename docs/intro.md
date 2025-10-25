@@ -3,40 +3,20 @@ sidebar_position: 1
 slug: /
 ---
 
+![](/img/cover.png)
+
 # Introduction
 
-It's time to launch your documentation! Welcome to [Dhub](https://dhub.dev)'s open-source documentation template.
+Croma is a unified design token system built to ensure consistency, scalability, and cross-platform harmony across all digital products.
 
-:::info
-[Dhub](https://dhub.dev) is a collaborative WYSIWYG editor for Docusaurus that enables both technical and non-technical users to efficiently and easily create and edit Docusaurus Markdown content.
-:::
+It acts as the single source of truth for visual values — such as color, typography, spacing, and elevation — that define the identity and usability of the Lumos Design System and related frameworks like PrismCSS.
 
-![](/img/rocket.webp)
+Unlike hardcoded design values, Croma tokens represent abstract, reusable variables that can be easily mapped to multiple platforms (Web, iOS, Android) and frameworks without losing design integrity.
 
-## Get started
+This abstraction enables seamless synchronization between designers and developers, reducing visual discrepancies and improving product coherence.
 
-Here's a couple of tips to get you started with [Dhub](https://dhub.dev):
+Croma follows a semantic-first naming convention and a platform-agnostic structure, ensuring that each token carries both meaning and adaptability.
 
-1. Remember that everything on this page is editable (assuming you're in the editor). Type `/` to open the command menu and add images, code blocks and other components.
+Its architecture is designed to evolve — allowing new categories like motion, layout, or theming to be integrated without disrupting the existing system.
 
-2. With [Dhub](https://dhub.dev), you own your code. Click the `Push GitHub` button to create a GitHub repository for your project.
-
-3. You can deploy your project to the web using [Vercel](https://vercel.com) or [Netlify](https://netlify.com) for free. Here are tutorials on how to deploy to [Vercel](https://vercel.com/guides/deploying-docusaurus-with-vercel) and to [Netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/). Alternatively, you click the three dots at the top right corner, and then click the `Deloy to Vercel`.
-
-:::info Preview URL
-
-Here's a link to see how this template looks like when deployed on the Web
-
-[https://template-docusaurus-docs.dhub.dev](https://template-docusaurus-docs.dhub.dev/)
-
-:::
-
-## Docusaurus
-
-This template is based on Meta's [Docusaurus](https://docusaurus.io/) framework. Docusaurus is a powerful tool for building content-centric websites, offering features such as translations, versioning, and content search.
-
-Explore [Docusaurus' documentation](https://docusaurus.io/docs) to learn more about its capabilities.&#x20;
-
-## **Need help?**
-
-Need help with a specific use-case or just want to chat about docs? You're very welcome to email us at [hello@dhub.dev](mailto:hello@dhub.dev), [join our Discord](https://discord.gg/6qGnyrt7xy), or send feedback (directly to our Slack) using the `Send feedback` button at the top.&#x20;
+Ultimately, Croma’s purpose is to empower teams to build faster, stay consistent, and maintain a cohesive brand experience across all interfaces and products.
