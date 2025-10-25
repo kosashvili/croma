@@ -1,0 +1,52 @@
+# Taxonmy
+
+```
+Color
+├── Primitive
+│   ├── Neutral
+│   │   ├── neutral50
+│   │   ├── neutral100
+│   │   └── ...
+│   ├── Primary
+│   │   ├── primary50
+│   │   └── primary500
+│   └── Success / Warning / Error / Info
+├── Alias
+│   ├── Background
+│   │   ├── Default → neutral50
+│   │   ├── Subdued → neutral100
+│   │   ├── Elevated → neutral200
+│   │   └── Primary → primary500
+│   ├── Text
+│   │   ├── Default → neutral900
+│   │   ├── Muted → neutral600
+│   │   └── OnPrimary → primary50
+│   ├── Border
+│   │   ├── Default → neutral300
+│   │   └── Strong → neutral700
+│   └── Icon
+│       ├── Default → neutral600
+│       └── Brand → primary500
+├── Semantic
+│   ├── Background
+│   │   ├── ButtonPrimary → alias.Background.Primary
+│   │   ├── Card → alias.Background.Elevated
+│   │   └── Modal → alias.Background.Default
+│   ├── Text
+│   │   ├── ButtonPrimary → alias.Text.OnPrimary
+│   │   ├── CardTitle → alias.Text.Default
+│   │   └── ModalText → alias.Text.Default
+│   ├── Border
+│   │   ├── Button → alias.Border.Brand
+│   │   └── Card → alias.Border.Subtle
+│   └── Icon
+│       ├── Button → alias.Icon.OnPrimary
+│       └── AlertError → alias.Icon.Error
+└── Components
+    ├── Button
+    │   ├── Primary → semantic.Background.ButtonPrimary / semantic.Text.ButtonPrimary / semantic.Border.Button
+    │   ├── Secondary → ...
+    ├── Card → semantic.Background.Card / semantic.Text.CardTitle / semantic.Border.Card
+    ├── Input → semantic.Background / semantic.Text / semantic.Border
+    └── Alert → semantic.Background / semantic.Text / semantic.Icon
+```
