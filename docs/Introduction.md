@@ -7,16 +7,10 @@ slug: /
 
 # Introduction
 
-Croma is a unified design token system built to ensure consistency, scalability, and cross-platform harmony across all digital products.
-
-It acts as the single source of truth for visual values — such as color, typography, spacing, and elevation — that define the identity and usability of the Lumos Design System and related frameworks like PrismCSS.
-
-Unlike hardcoded design values, Croma tokens represent abstract, reusable variables that can be easily mapped to multiple platforms (Web, iOS, Android) and frameworks without losing design integrity.
-
-This abstraction enables seamless synchronization between designers and developers, reducing visual discrepancies and improving product coherence.
-
-Croma follows a semantic-first naming convention and a platform-agnostic structure, ensuring that each token carries both meaning and adaptability.
-
-Its architecture is designed to evolve — allowing new categories like motion, layout, or theming to be integrated without disrupting the existing system.
-
-Ultimately, Croma’s purpose is to empower teams to build faster, stay consistent, and maintain a cohesive brand experience across all interfaces and products.
+The Lumos Design System uses design tokens as the single source of truth for all foundational styles across web, iOS, and Android platforms. Tokens encode colors, typography, spacing, borders, units, layout, and strings into reusable variables that make UI consistent, scalable, and easy to maintain.\
+\
+All tokens are managed as Figma variable collections and can be edited directly via the Croma Figma plugin, which provides a seamless workflow for both designers and developers.\
+\
+Lumos tokens are organized into two layers:\
+&#x9;1\.	Primitives (Global) – raw values such as hex colors, font families, unit sizes.\
+&#x9;2\.	Aliases – contextual tokens mapped to UI usage (e.g., Background/Default, Text/Primary).
